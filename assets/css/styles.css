@@ -2,6 +2,10 @@ p {
     text-align: left!important;
 }
 
+.footer-copyright {
+    width: 100%;
+}
+
 #contact-info {
     padding: 3rem;
     border-radius: 5px;
