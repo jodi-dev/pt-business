@@ -12,10 +12,18 @@ ul.no-bullets {
     width: 100%;
 }
 
+#map {
+    width: 600px;
+    height: 450px;
+    border: 0;
+    margin: 0 auto;
+    display: block;
+}
+
 #contact-info {
     border: 0;
     width: 600px;
-    height: 450px;
+    min-height: 450px;
     padding: 3rem;
     border-radius: 0px;
     background-color: #2f4766;
