@@ -7,6 +7,10 @@ ul.no-bullets {
     list-style-type: none;
 }
 
+span i {
+    padding-right: 1rem;
+}
+
 .footer-copyright {
     width: 100%;
 }

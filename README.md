@@ -16,3 +16,4 @@ Bootstrap:
 # References
 
 - [Font Awesome 4 Icons](https://fontawesome.com/v4.7/icons/)
+- [Pexel Images](https://www.pexels.com)
