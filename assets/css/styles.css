@@ -11,6 +11,14 @@ span i {
     padding-right: 1rem;
 }
 
+.modal-header {
+    border: 0;
+}
+
+.modal-footer {
+    border: 0;
+}
+
 .footer-copyright {
     width: 100%;
 }
