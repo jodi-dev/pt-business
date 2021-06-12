@@ -51,8 +51,8 @@
                                     <span><i class="fa fa-clock-o"></i>9:00 - 18:00</span>
                                 </li>
                             </ul>
-                            <button class="btn btn-outline-light btn-lg" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Message Us</button>
-                            <div class="collapse" id="collapseExample">
+                            <button class="btn btn-outline-light btn-lg" data-toggle="collapse" href="#collapseMessage" role="button" aria-expanded="false" aria-controls="collapseExample">Message Us</button>
+                            <div class="collapse" id="collapseMessage">
                                 <div class="text">
                                   <form>
                                     <div class="form-group">
@@ -66,7 +66,7 @@
                                     <button type="submit" class="btn btn-light btn-lg btn-block m-2">Submit</button>
                                   </form>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -118,25 +118,55 @@
                     <h2 class="text-info">Services</h2>
                 </div>
                 <div class="row justify-content-center mx-5 flex p-5">
-                    <div class="col-md-4 mb-3 mb-md-0 feature-box"><i class="fa fa-pencil-square-o"></i>
+                    <div class="col-md-4 mb-3 mb-md-0 feature-box">
+                        <div class="card card-body service-card" data-toggle="collapse" href="#ADPCollapse" role="button" aria-expanded="false" aria-controls="ADPCollapse">
+                        <i class="fa fa-pencil-square-o"></i>
                         <h4>ADP Assessment</h4>
                         <p>To be eligible for Assistive Devices Program devices, you need to be authorized by a qualified health care professional registered with the program. Our team provides this assessment service to our clients.</p>
+                            <div class="collapse" id="ADPCollapse">
+                                <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#bookModal">Book an ADP Assessment Today</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0 feature-box"><i class="fa fa-futbol-o"></i>
-                        <h4>Sports Injury</h4>
-                        <p>If you exercised or played sports and sustained sprains, strains, or other soft tissue wounds, we can help you manage pain and discomfort with a physiotherapy plan.</p>
+                    <div class="col-md-4 mb-3 mb-md-0 feature-box">
+                        <div class="card card-body service-card" data-toggle="collapse" href="#SportsCollapse" role="button" aria-expanded="false" aria-controls="SportsCollapse">
+                            <i class="fa fa-futbol-o"></i>
+                            <h4>Sports Injury</h4>
+                            <p>If you exercised or played sports and sustained sprains, strains, or other soft tissue wounds, we can help you manage pain and discomfort with a physiotherapy plan.</p>
+                                <div class="collapse" id="SportsCollapse">
+                                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#bookModal">Book a Sports Injury Appointment Today</button>
+                                </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0 feature-box"><i class="fa fa-car"></i>
-                        <h4>Motor Vehicle Accident</h4>
-                        <p>Motor vehicle accidents are traumatic in nature, but our team of physiotheraipsts can help you improve from the physical and cognitive injuries. Book an appointment or consultation today to get evaluated for a treatment plan.</p>
+                    <div class="col-md-4 mb-3 mb-md-0 feature-box">
+                        <div class="card card-body service-card" data-toggle="collapse" href="#VehicleCollapse" role="button" aria-expanded="false" aria-controls="VehicleCollapse">
+                            <i class="fa fa-car"></i>
+                            <h4>Motor Vehicle Accident</h4>
+                            <p>Motor vehicle accidents are traumatic in nature, but our team of physiotheraipsts can help you improve from the physical and cognitive injuries. Book an appointment or consultation today to get evaluated for a treatment plan.</p>
+                                <div class="collapse" id="VehicleCollapse">
+                                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#bookModal">Book a Motor Accident Appointment Today</button>
+                                </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 mt-3 mb-3 mb-md-0 feature-box"><i class="fa fa-child"></i>
-                        <h4>Children's PT</h4>
-                        <p>We provide services for children in need of physiotherapy. We offer family-oriented sessions where the child may attend with their guardian, all at a discounted price. Book an appointment today to find out more!</p>
+                    <div class="col-md-4 mt-3 mb-3 mb-md-0 feature-box">
+                        <div class="card card-body service-card" data-toggle="collapse" href="#ChildrenCollapse" role="button" aria-expanded="false" aria-controls="ChildrenCollapse">
+                            <i class="fa fa-child"></i>
+                            <h4>Children's Physiotherapy</h4>
+                            <p>We provide services for children in need of physiotherapy. We offer family-oriented sessions where the child may attend with their guardian, all at a discounted price. Book an appointment today to find out more!</p>
+                                <div class="collapse" id="ChildrenCollapse">
+                                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#bookModal">Book a Children's Appointment Today</button>
+                                </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 mt-3 mb-3 mb-md-0 feature-box"><i class="fa fa-leaf"></i>
-                        <h4>Homeopathic PT</h4>
-                        <p>Into naturalistic healing? We got you covered. Our specialists offer many inidividualistic blends of homeopathic remedies with physiotherapy science to help you heal spiritually and physically.</p>
+                    <div class="col-md-4 mt-3 mb-3 mb-md-0 feature-box">
+                        <div class="card card-body service-card" data-toggle="collapse" href="#HomeopathicCollapse" role="button" aria-expanded="false" aria-controls="HomeopathicCollapse">
+                            <i class="fa fa-leaf"></i>
+                            <h4>Homeopathic Physiotherapy</h4>
+                            <p>Into naturalistic healing? We got you covered. Our specialists offer many inidividualistic blends of homeopathic remedies with physiotherapy science to help you heal spiritually and physically.</p>
+                                <div class="collapse" id="HomeopathicCollapse">
+                                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#bookModal">Book a Homeopathic Appointment Today</button>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>

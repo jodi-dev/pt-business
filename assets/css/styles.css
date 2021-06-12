@@ -11,6 +11,10 @@ span i {
     padding-right: 1rem;
 }
 
+.service-card {
+    border: 0;
+}
+
 .modal-header {
     border: 0;
 }
@@ -22,7 +26,6 @@ span i {
 .footer-copyright {
     width: 100%;
 }
-
 
 #map {
     width: 600px;
