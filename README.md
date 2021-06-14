@@ -17,3 +17,4 @@ Bootstrap:
 
 - [Font Awesome 4 Icons](https://fontawesome.com/v4.7/icons/)
 - [Pexel Images](https://www.pexels.com)
+- [Bootstrap Form Date Picker](https://formden.com/blog/date-picker)
